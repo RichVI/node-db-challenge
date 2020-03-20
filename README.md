@@ -25,10 +25,10 @@ Follow these steps to set up and work on your project:
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge `firstName-lastName` Branch into master on **your fork, don't make Pull Requests against Lambda's repository**.
-- [ ] Please don't merge your own pull request.
-- [ ] Add your _Team Lead_ as a Reviewer on the Pull-request
-- [ ] Your _Team Lead_ will count the challenge as done by merging the branch into _master_.
+- [x] Submit a Pull-Request to merge `firstName-lastName` Branch into master on **your fork, don't make Pull Requests against Lambda's repository**.
+- [x] Please don't merge your own pull request.
+- [x] Add your _Team Lead_ as a Reviewer on the Pull-request
+- [x] Your _Team Lead_ will count the challenge as done by merging the branch into _master_.
 
 ## Commits
 
@@ -38,13 +38,17 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain the difference between `Relational Databases` and `SQL`.
+- [x] Explain the difference between `Relational Databases` and `SQL`.
+      A.Relational databases are databases where the resources can share reference ID's to resources from other tables within the database. SQL is a language for working with databases.
 
-- [ ] Why do tables need a `primary key`?
+- [x] Why do tables need a `primary key`?
+      A. A primary key provides an unique identifier for each row in a table to avoid duplicate data.
 
-- [ ] What is the name given to a table column that references the primary key on another table.
+- [x] What is the name given to a table column that references the primary key on another table.
+      A. Foreign key
 
-- [ ] What do we need in order to have a _many to many_ relationship between two tables.
+- [x] What do we need in order to have a _many to many_ relationship between two tables.
+      A. A new table is needed to create the relationship between the two tables.
 
 ## Minimum Viable Product
 

@@ -31,7 +31,6 @@ router.get('/tasks', (req, res) => {
 // GET - Get all tasks by ID
 router.get('/:id/tasks', (req, res) => {
 	const id = req.params.id;
-
 	Projects.getTasksWithProject(id)
 		.then((tasks) => {
 			res.status(200).json(tasks);
@@ -68,9 +67,8 @@ router.post('/', (req, res) => {
 });
 
 // POST - Add new task
-router.post('/task', (req, res) => {
+router.post('/tasks', (req, res) => {
 	const newTask = req.body;
-
 	if (!req.body.project_id) {
 		res.status(404).json({ message: 'project_id is required' });
 	}
@@ -89,7 +87,6 @@ router.post('/task', (req, res) => {
 // POST - Add new resource
 router.post('/resources', (req, res) => {
 	const newResource = req.body;
-
 	if (!req.body.project_id) {
 		res.status(404).json({ message: 'project_id is required' });
 	}
